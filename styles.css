@@ -1,0 +1,91 @@
+#form {
+    background: #fff;
+    padding: 20px;
+    min-height: 40.6vh;
+    margin: 20px auto;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form label {
+    display: block;
+    margin-top: 10px;
+}
+#form input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#form textarea{
+    width: calc(100% - 20px);
+    height: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+#form input[type="email"],
+#form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#form input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #333;
+}
+h2{
+    margin: auto;
+    width: fit-content;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.delete{
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    box-shadow: none;
+    border: 0px;
+    padding: 10px;
+    border-radius: 12px;
+}
